@@ -1,0 +1,83 @@
+############################
+# Node / NPM / PNPM / Yarn
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# Build outputs
+############################
+dist/
+build/
+client/dist/
+server/dist/
+
+############################
+# Environment variables
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# OS / Editor lixo
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# Logs
+############################
+logs/
+*.log
+
+############################
+# TTS storage (GERADO)
+############################
+server/storage/
+server/storage/tmp/
+server/storage/audio/
+
+############################
+# Cache / temp
+############################
+.cache/
+.tmp/
+temp/
+
+############################
+# Audio files (gerados)
+############################
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+############################
+# FFmpeg concat lists
+############################
+*.txt
+
+############################
+# TypeScript incremental
+############################
+*.tsbuildinfo
+
+############################
+# Coverage / testes
+############################
+coverage/
+
+############################
+# Optional: Docker
+############################
+docker-data/
